@@ -8,7 +8,7 @@ set -u
 OUTDIR=/tmp/aeld
 SCRIPTDIR=$PWD
 KERNEL_REPO=git://git.kernel.org/pub/scm/linux/kernel/git/stable/linux-stable.git
-KERNEL_VERSION=v5.1.10
+KERNEL_VERSION=v5.15.163
 BUSYBOX_VERSION=1_33_1
 ARCH=arm64
 CROSS_COMPILE=aarch64-none-linux-gnu-
