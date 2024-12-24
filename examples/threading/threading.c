@@ -38,7 +38,6 @@ bool start_thread_obtaining_mutex(pthread_t *thread, pthread_mutex_t *mutex,int 
      */
     
     struct thread_data * thread_data_args = malloc(sizeof(struct thread_data));
-    struct thread_data ** thread_data_retval; 
     thread_data_args->wait_to_obtain_ms = wait_to_obtain_ms;
     thread_data_args->wait_to_release_ms = wait_to_release_ms;
     thread_data_args->mutex = mutex;
